@@ -1,57 +1,53 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
 } 
-html,body{
+html, body {
     height: 100%;
     width: 100%;
 }
-h1{
+h1 {
     color: wheat;
 }
-#main{
+#main {
     height: 100%;
     width: 100%;
-    display: flex ;
+    display: flex;
     align-items: center;
     justify-content: center;
-
     background: salmon;
 }
-.shape{
+.shape {
     background: blue;
     height: 200px;
     width: 200px;
     margin-top: 10px;
     margin-left: 10px;
-    border:1px solid black;
+    border: 1px solid black;
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
 }
-#circle{
+#circle {
     background: black;
     border-radius: 50%;
 }
-#rombus{
-    
-    rotate: 45deg;
-margin-top: 50px;
-   
+#rombus {
+    transform: rotate(45deg);
+    margin-top: 50px;
 }
-#rombus h1{
-    rotate: -45deg;
+#rombus h1 {
+    transform: rotate(-45deg);
 }
-#square{
+#square {
     background: brown;
-
 }
-#circle:hover{
+#circle:hover {
     background: green;
 }
-#rombus:hover{
+#rombus:hover {
     background: yellow;
 }
-#square:hover{
+#square:hover {
     background: red;
 }
